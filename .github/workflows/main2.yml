@@ -24,7 +24,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-2025-vs2026
+    runs-on: windows-11-vs2026-arm
     timeout-minutes: 10080
     env:
       INSTALLER_CACHE_PATH: C:\cached-installers
